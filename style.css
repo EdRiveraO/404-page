@@ -22,8 +22,8 @@ color: #333333;
     height: 400px;
     overflow: hidden;
     display: flex;
-    margin: 30px;
-    padding: 40px;
+    margin: 25px;
+    padding: 30px;
     justify-content: center;
     }
 .imagen{
@@ -50,7 +50,7 @@ font-size: 64px;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: -0.035em;
-
+    padding: 2px;
 }
 
 footer{
@@ -61,25 +61,31 @@ footer{
  font-size: 14px;
  line-height: 17px;
  color: #BDBDBD;
- bottom: 0px;
-
+ padding-top: 40px;
 }
 
 @media (max-width :600px) {
     .container{
         display: block;
-        padding: 4px;
+        margin: 10px;
+        padding:26px;
+    }
+    .badnews{
+        width: 100%;
+        padding: 2px;
     }
     .imagen{
         width: 100%;
     }
     .badnews h1{
-    
+    padding: 2px;
     font-size: 30px;
     
     }
     .badnews p{
         font-size: 10px; 
+        width: 100%;
+
     
     }
     footer{
