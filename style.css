@@ -29,6 +29,7 @@ color: #333333;
 .imagen{
     size: 40px 40px;
     padding: 20px;
+    filter:grayscale(80%)
 }
 .badnews{
     width: 50%;
