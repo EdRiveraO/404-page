@@ -28,6 +28,7 @@ color: #333333;
     }
 .imagen{
     size: 40px 40px;
+    padding: 20px;
 }
 .badnews{
     width: 50%;
@@ -76,6 +77,8 @@ footer{
     }
     .imagen{
         width: 100%;
+        padding: 0px;
+
     }
     .badnews h1{
     padding: 2px;
@@ -85,6 +88,7 @@ footer{
     .badnews p{
         font-size: 10px; 
         width: 100%;
+        line-height: 20px;
 
     
     }
